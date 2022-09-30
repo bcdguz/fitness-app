@@ -9,7 +9,6 @@ const SessionForm = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    debugger
     const user = {
       username,
       password
